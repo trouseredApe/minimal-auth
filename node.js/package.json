@@ -1,0 +1,7 @@
+{
+    "name": "nodejs-auth-api",
+    "version": "1.0.0",
+    "description": "An example of making a Node.js API server for authentication",
+    "author": "Pratik Pandey",
+    "license": "MIT"
+}
