@@ -15,14 +15,15 @@ var appRouter = function(app) {
     var mockUser = {}
     mockUser.email =  "admin@aghost.net";
     mockUser.nickname =  "admin";
+    
     if(username == "E000090101") {
       mockUser.username = "E000090101"
-      mockUser.user_id = 1;
+      mockUser.user_id = 'aghost.admin.1';
     }
 
     if(username == "E000090102") {
       mockUser.username = "E000090101"
-      mockUser.user_id = 2;
+      mockUser.user_id = 'aghost.admin.2';
     }
     
     res.setHeader('Content-Type', 'application/json');
